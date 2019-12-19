@@ -61,8 +61,8 @@ export default class Calendar extends React.Component {
           onClose={this.closeModal}
           className="new-event-modal"
         >
-          <DialogContent>
-            <NewEvent tabIndex={-1} date={ this.state.selectedDate } month={ this.state.selectedMonth }  year={ this.state.selectedYear } onCreateSuccess= { () => this.closeModal() } />
+          <DialogContent className="remove-outline">
+            <NewEvent date={ this.state.selectedDate } month={ this.state.selectedMonth }  year={ this.state.selectedYear } onCreateSuccess= { () => this.closeModal() } />
           </DialogContent>
         </Modal>
       </div>
