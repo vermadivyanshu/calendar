@@ -39,7 +39,8 @@ export default class Calendar extends React.Component {
       this.appendMonth()
     }
     else if (element.scrollTop === 0) {
-      this.prependMonth()
+      this.prependMonth();
+      element.scrollTop = 700;
     }
   }
   closeModal = () => {
