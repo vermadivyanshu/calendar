@@ -1,0 +1,16 @@
+.new-event {
+  position: absolute;
+  width: 50%;
+  min-width: 400px;
+  transform: translate(50%, 50%);
+  background-color: white;
+  padding: 1rem;
+}
+.new-event .save-event-btn {
+  text-align: center;
+}
+.new-event .error {
+  background-color: red;
+  color: white;
+  margin-bottom: 1rem;
+}

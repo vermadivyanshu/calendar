@@ -1,0 +1,50 @@
+.calendar-month {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.calendar-month .grid-list {
+  width: 100%;
+}
+.calendar-month .month-heading {
+  border-bottom: 1px solid black;
+}
+.calendar-month .month-heading div {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.calendar-month .day-of-week {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.calendar-month .day-of-week.last-col {
+  border-right: 0px;
+}
+.calendar-month .date {
+  height: 100%;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+.calendar-month .date.top-row {
+  border-top: 0px
+}
+.calendar-month .date.last-col {
+  border-right: 0px
+}
+
+.calendar-month .date-cell .event p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0.05rem;
+  padding-top: 0px;
+  margin: 0px;
+  margin-left: 0.5rem;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+.calendar-month .date-cell .events-list {
+  height: 60px;
+  overflow: scroll;
+}

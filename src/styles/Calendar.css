@@ -1,0 +1,13 @@
+.new-event-modal {
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+  outline: 0px;
+}
+.calendar {
+  margin-top: 2rem;
+  width: 80%;
+  margin: auto;
+  height: 700px;
+  overflow: scroll;
+}
