@@ -2,6 +2,10 @@
 
 A calendar app with infinte scroll and event adding functionality that presists on page refresh.
 
+## Setup
+1. Run `npm install`
+2. Run `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
